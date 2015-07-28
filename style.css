@@ -1,5 +1,11 @@
 body {
 	background: #f9e933;
+	font-family: 'Droid sans', sans-serif; 
+	font-size: 100%;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Ubuntu', sans-serif;
 }
 
 header, main, footer {
@@ -17,6 +23,7 @@ header {
 }
 
 header h1 {
+	font-size: 3.0em;
 	float: left;
 	width: 570px;
 }
@@ -41,6 +48,15 @@ main .img {
 	width: 285px;
 }
 
+h2 {
+	font-size: 1.7em;
+}
+
+h3 {
+	font-size: 1.3em;
+	font-style: bold;
+}
+
 footer .contact {
 	float: left;
 	width: 570px;
@@ -49,5 +65,13 @@ footer .contact {
 footer .sitemap {
 	float: right;
 	width: 285px;
+}
+
+h5 {
+	font-size: 1.2em;
+}
+
+h6 {
+	font-size: 1.2em;
 }
 
