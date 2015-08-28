@@ -3,74 +3,70 @@ body {
 	font-family: 'Droid sans', sans-serif; 
 	font-size: 100%;
 }
-
 h1, h2, h3, h4 {
 	font-family: 'Ubuntu', sans-serif;
 }
-
 header, main, footer {
 	min-width: 855px;
 }
-
 header .container, main .container, footer .container{
 	max-width: 855px;
 	margin: auto;
 }
-
 header {
 	background: white;
 	overflow: auto;
 }
-
+header .container {
+	padding: 30px 40px 75px 20px;
+}
 header h1 {
 	font-size: 3.0em;
 	float: left;
 	width: 570px;
 }
-
 header nav {
 	float: right;
 	width: 285px;
 }
-
 main {
 	background: white;
 	overflow: auto;
 }
-
 main .containermain {
 	float: left;
 	width: 570px;
+	border: 10px;
+	border-color: black;
 }
-
 main .img {
 	float: left;
 	width: 285px;
 }
-
+main h2, h3 {
+	margin: 20px 0px 20px 0px;
+}
+main li {
+	margin: 5px 0px 5px 0px;
+}
 h2 {
 	font-size: 1.7em;
 }
-
 h3 {
 	font-size: 1.3em;
 	font-style: bold;
 }
-
 footer .contact {
 	float: left;
 	width: 570px;
 }
-
 footer .sitemap {
 	float: right;
 	width: 285px;
 }
-
 h5 {
 	font-size: 1.2em;
 }
-
 h6 {
 	font-size: 1.2em;
 }
